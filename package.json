@@ -1,0 +1,27 @@
+{
+  "name": "js-website-builder",
+  "version": "1.0.0",
+  "description": "JavaScript pure application",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --no-source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkolesnikov88/js-website-builder.git"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Kolesnikov George <gkolesnikov88@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gkolesnikov88/js-website-builder/issues"
+  },
+  "homepage": "https://github.com/gkolesnikov88/js-website-builder#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
