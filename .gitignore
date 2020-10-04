@@ -1,2 +1,5 @@
 /.idea/
 /js-website-builder.iml
+/node_modules/
+/dist/
+/.cache/
